@@ -1,0 +1,24 @@
+{
+    "name":"Ravshan",
+    "profession":"Software Engineer",
+    "age":"34",
+    "residence":"South Korea",
+    "freelance":"Avialable",
+    "address":"Seoul, South Korea",
+    "languages": ["Uzbek","Russian","English","Korean"],
+    "skills": ["HTML","CSS","JS","NodeJS","Python","ML","AI"],
+    "extra_skills": ["Bootstrap","Django","Git","Spring","Angular"],
+    "work_place": ["IT COmpany"],
+    "service_desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam.",
+    "about_me": ["I ws born in Uzbekistan....."],
+    "city": ["Tahkent"],
+    "title": ["Flower","Seedlings","Gardner","Old","New"],
+    "flower_desk": [" What is a Flower ? " , " what is a Seedling ? " , " Who is Gardner ?"],
+    "flower_name": [" Tulip "," Daffodil "," Poppy " , "Sunflower ","Bluebell","Rose","Snowdrop","Cherry","blossom"],
+    "flower_price": ["15$","2$","7$","22$","5$","3$","19$","9$","12$"],
+    "famous_words": ["World is beautifull with flowers"],
+    "famous_name": ["Ravshan Abdurahman"]
+
+    
+    
+}
