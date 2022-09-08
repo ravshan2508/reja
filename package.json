@@ -9,6 +9,7 @@
     "train": "nodemon train.js",
     "train2": "nodemon train2.js",
     "train3": "nodemon train3.js",
+    "callback": "nodemon callback.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ravshan",
@@ -16,6 +17,7 @@
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.1",
+    "mongodb": "^3.2.6",
     "nodemon": "^2.0.19",
     "require": "^2.4.20"
   }
