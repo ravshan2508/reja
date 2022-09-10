@@ -3,7 +3,7 @@ const http = require('http');
 const mongodb = require("mongodb");
 
 let db;
-const connectionString = "mongodb+srv://ravwan:r19852609@cluster0.lpes56m.mongodb.net/test";
+const connectionString = "mongodb+srv://ravwan:r19852609@cluster0.lpes56m.mongodb.net/Reja";
 
 mongodb.connect(connectionString, {
     useNewUrlParser: true,
