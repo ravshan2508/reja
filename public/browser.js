@@ -1,5 +1,6 @@
 
 
+
 console.log("Frontend JS ishga tushdi");
 
 
@@ -39,3 +40,28 @@ document.getElementById('create-form').addEventListener("submit", function (e){
 
     });
 }); 
+
+document.addEventListener('click', function(e) {
+    
+    //delete
+    
+    if (e.target.classList.contains('delete-me')) {
+        if(confirm('are u sure ?'))  {
+            axios
+            .post('delete-item',{ id : e.target.getAttribute('data-id') })
+            .then((respose) => {
+                console.log(respose.data);
+                e.target.parentElement.parentElement.remove();
+            })
+            .catch((err) =>{
+                console.log('Please, try again');
+
+            });
+        }
+    }
+    //edit
+    if (e.target.classList.contains('edit-me')) {
+        alert('You pushed edit button');  
+    }
+
+});
